@@ -51,10 +51,21 @@ Install the `mkdocs` package using pip:
 
     $ pip install mkdocs
 
-You should now have the `mkdocs` command installed on your system.  Run `mkdocs help` to check that everything worked okay.
+You should now have the `mkdocs` command installed on your system.  Run `mkdocs --help` to check that everything worked okay.
 
-    $ mkdocs help
-    mkdocs [help|new|build|serve|gh-deploy] {options}
+    $ mkdocs --help
+    Usage: mkdocs [OPTIONS] COMMAND [ARGS]...
+    MkDocs - Project documentation with Markdown.
+    Options:
+    	--verbose  Enable verbose output
+    	--version  Show the version and exit.
+    	--help     Show this message and exit.
+    Commands:
+    	build      Build the MkDocs documentation
+    	gh-deploy  Deply your documentation to GitHub Pages
+    	json       Build the MkDocs documentation to JSON files...
+    	new        Create a new MkDocs project
+    	serve      Run the builtin development server
 
 ---
 
